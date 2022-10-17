@@ -4,7 +4,7 @@ import cv2
 
 """Using cv2 we are processing the xml file which huge contains data of faces"""
 
-face_cascade=cv2.CascadeClassifier(r"C:\Users\2116060\OneDrive - Cognizant\Documents\classandobjects\classespython\Lib\site-packages\six-1.16.0.dist-info\haarcascade_frontalface_default.xml")
+face_cascade=cv2.CascadeClassifier(r"haarcascade_frontalface_default.xml")
 
 """processing the image and converting it into numpy array it will be in rbg"""
 
